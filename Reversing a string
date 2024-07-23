@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+
+  char A[] ="Hello World";
+  printf("Original string : %s\n", A);
+
+  //reversing a string 
+  printf("Reversed String : %s", strrev(A));
+
+  return 0;
+  }
+  
