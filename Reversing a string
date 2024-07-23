@@ -1,19 +1,5 @@
-#include<stdio.h>
-int main()
-{
+txt1= "Hello World"[::-1]
+print(txt1)
 
-  char A[] = "Hello World";
-  printf("Original string : %s\n", A);
-
-  //reversing a string 
-  printf("Reversed String : %s", strrev(A));
-
-  char B[] = "Javaprogramming"
-  print("Original string : %s\n",B);
-
-  //reversing a string 
-  print("Reversed string : %s", strrev(B));
-
-  return 0;
-  }
-  
+txt2= "Javaprogramming"[::-1]
+print(txt2)
