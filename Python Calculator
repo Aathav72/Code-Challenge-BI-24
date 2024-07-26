@@ -1,0 +1,19 @@
+operator=input("Enter an operator(+ - * /): ")
+a=float(input("Enter First Number: "))
+b=float(input("Enter Second Number: "))
+
+if operator == '+':
+  Result = a+b
+  print("Result: ",a+b)
+elif operator == "-":
+  Result = a-b
+  print("Result: ",a-b)
+elif operator == "*":
+  Result = a*b
+  print("Result: ",a*b)
+elif operator == "/"
+  Result = a/b
+print("Result: ",a/b)
+
+else:
+print(f"{operator} is not valid)
