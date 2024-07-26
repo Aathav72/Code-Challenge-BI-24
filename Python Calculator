@@ -3,17 +3,17 @@ a=float(input("Enter First Number: "))
 b=float(input("Enter Second Number: "))
 
 if operator == '+':
-  Result = a+b
-  print("Result: ",a+b)
+    Result = a+b
+    print("Result: ",a+b)
 elif operator == "-":
-  Result = a-b
-  print("Result: ",a-b)
+    Result = a-b
+    print("Result: ",a-b)
 elif operator == "*":
-  Result = a*b
-  print("Result: ",a*b)
-elif operator == "/"
-  Result = a/b
-print("Result: ",a/b)
+    Result = a*b
+    print("Result: ",a*b)
+elif operator == "/":
+    Result = a/b
+    print("Result: ",a/b)
 
 else:
-print(f"{operator} is not valid)
+    print(f"{operator} is not valid")
